@@ -19,9 +19,9 @@ rss: default
 menu:
   Home: /
   Archives: /archives/
-  Tags: /tags
+  Tags: /tags/
   # Categories: /categories
-  About: /about
+  About: /about/
 
 # site search option
 search: true
@@ -41,27 +41,28 @@ theme:
 # Social links Settings
 # ===========================================
 social:
-  email: ahonn95@outlook.com
-  stack-overflow:
-  twitter:
-  facebook:
-  github: https://github.com/ahonn 
-  weibo: 
-  zhihu: https://www.zhihu.com/people/ahonn/activities
+  email: mailto:wordbeyondyoung@gmail.com
+#  stack-overflow:
+#  twitter:
+#  facebook:
+  github: https://github.com/buginux
+  weibo: http://weibo.com/swiftyper
+  jianshu: http://www.jianshu.com/users/3b40e55ec6d5/latest_articles
+#  zhihu:
 
 # ===========================================
 # Third Party Services Settings
 # ===========================================
 
 # Baidu Analytics
-baidu_analytics: b54ec1817ee20d83af77a0859c4dda5d
+baidu_analytics: 7a71baaea5cb77555879cfaf4b521328
 # Google Analytics
-google_analytics: UA-74273646-1
+google_analytics: UA-70950925-1
 
 # Duoshuo
-duoshuo_shortname: ahonn
+# duoshuo_shortname: 
 # Disqus
-disqus_shortname: ahonn
+disqus_shortname: swiftyper
 
 
 # ===========================================
