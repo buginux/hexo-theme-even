@@ -16,17 +16,12 @@
       </div>
     </header>
 
-    {% if not is_home() and toc(page.content) %}
-      <div class="post-toc" id="post-toc">
-        <h2 class="post-toc-title">{{ __('posts.toc') }}</h2>
-        <div class="post-toc-content">
-          {{ toc(page.content, {list_number: false}) }}
-        </div>
-      </div>
-    {% endif %}
+    {# Post TOC #}
+    {% include "../_partial/_post/toc.swig" %}
 
     <div class="post-content">
       {% if is_home() %}
+        {% set excerpt = "" %}
         {% if post.description %}
           {% set excerpt = post.description %}
         {% elif post.excerpt %}
@@ -46,6 +41,14 @@
       {% endif %}
     </div>
 
+    {% if not is_home() %}
+      {# Post Copyright #}
+      {% include "../_partial/_post/copyright.swig" %}
+
+      {# Reward #}
+      {% include "../_partial/_post/reward.swig" %}
+    {% endif %}
+
     {% if post.tags and post.tags.length and not is_home() %}
       <footer class="post-footer">
         <div class="post-tags">
@@ -54,6 +57,7 @@
           {% endfor %}
         </div>
 
+        {# Post Pagination #}
         {% include "../_partial/pagination.swig" %}
       </footer>
     {% endif %}
