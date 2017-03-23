@@ -106,7 +106,7 @@ $menu-item-mobile-margin: 5px !default;
 $menu-link-font-size: 18px !default;
 
 // Height of the mobile header.
-$mobile-header-height: 50px !default;
+$mobile-navbar-height: 50px !default;
 
 // ========== Post ========== //
 // Margin bottom of post list.
@@ -122,7 +122,7 @@ $post-border: 1px solid $light-gray !default;
 $post-title-font-size: 27px !default;
 
 // Font weight of post title.
-$post-title-font-weight: 200 !default;
+$post-title-font-weight: 400 !default;
 
 // Margin top of the post meta (post time).
 $post-meta-margin-top: 5px !default;
@@ -218,7 +218,9 @@ $code-type-list: (
   scheme: "Scheme",
   objectivec: "Objective-C",
   yml: "YAML",
-  stylus: "Stylus"
+  stylus: "Stylus",
+  sql: "SQL",
+  http: "HTTP"
 ) !default;
 
 // Color of the code background.
