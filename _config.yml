@@ -20,8 +20,8 @@ menu:
   Home: /
   Archives: /archives/
   Tags: /tags/
-  # Categories: /categories
   About: /about/
+  Wiki: "http://wiki.swiftyper.com"
 
 # ===========================================
 # Theme Settings
