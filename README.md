@@ -2,7 +2,7 @@
 
 > A super simple theme for Hexo
 
-[在线预览 Demo](http://ahonn.github.io)
+[在线预览 Demo](http://ahonn.github.io/hexo-theme-even/)
 ![even](http://ww2.sinaimg.cn/large/006tNc79gw1faoa9tm7gnj312v0or421.jpg)
 
 ## 特性 Feature
@@ -27,8 +27,5 @@ $ git clone https://github.com/ahonn/hexo-theme-even themes/even
 theme: even
 ```
 
-## 文档 Document
-[wiki](https://github.com/ahonn/hexo-theme-even/wiki)
+更多主题设置，查看 [document](https://github.com/ahonn/hexo-theme-even/wiki)
 
-## 联系我 Contact
-Email: [ahonn95@outlook.com](mailto:ahonn95@outlook.com)
