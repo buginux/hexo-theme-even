@@ -26,24 +26,32 @@ menu:
 # ===========================================
 # Theme Settings
 # ===========================================
-# theme styling
-# color: Default | Mint Green | Cobalt Blue | Hot Pink | Dark Violet
-theme:
-  color: Default
-  toc: true
-  search: false
-  fancybox: false
+# color: default | mint green | cobalt blue | hot pink | dark violet
+color: default
+
+# default page mode: default | archives
+mode: default
+
+toc: true
+
+# jQuery fancybox
+fancybox: true
+
+pjax: true
+
+# LaTeX support (via MathJax)
+latex: false
 
 copyright:
-  enable: false
+  enable: true
   # https://creativecommons.org/
-  license: '本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可'
+  license: '<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>'
 
 reward:
   enable: false
   qrCode:
-    wechat: /image/reward/wechat.png
-    alipay: /image/reward/alipay.png
+    wechat:
+    alipay:
 
 # ===========================================
 # Social links Settings
@@ -58,23 +66,42 @@ social:
   github: https://github.com/buginux
   weibo: http://weibo.com/swiftyper
   zhihu: 
+  douban:
   pocket:
   jianshu: http://www.jianshu.com/users/3b40e55ec6d5/latest_articles
   tumblr:
+  instagram:
 
 # ===========================================
 # Third Party Services Settings
 # ===========================================
 
+# LeanCloud
+leancloud:
+  app_id:
+  app_key:
+
 # Baidu Analytics
 baidu_analytics: 7a71baaea5cb77555879cfaf4b521328
+# Baidu Verification
+baidu_verification:
 # Google Analytics
 google_analytics: UA-70950925-1
+# Google Verification
+google_verification:
 
 # Disqus
 disqus_shortname: swiftyper
 
+#Changyan
+changyan:
+  appid:
+  appkey:
+
+#LiveRe
+livere_datauid:
+
 # ===========================================
 # Version
 # ===========================================
-version: 2.4.x
+version: 2.11.0

@@ -1,4 +1,4 @@
-menu: 
+menu:
   home: Home
   archives: Archives
   tags: Tags
@@ -16,12 +16,13 @@ posts:
   next_post: Next
   toc: Contents
   readmore: Read more..
+  visits: Visits
   reward: 'Reward'
 
 copyright:
   author: 'Author'
   link: 'Link'
-  origin: 'Origin'
+  license: 'License'
 
 counter:
   archives:
